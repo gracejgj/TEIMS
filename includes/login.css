@@ -1,0 +1,103 @@
+* {
+	font-family: arial,sans-serif;
+	margin:0px;
+	padding:0px;
+}
+body {
+	width:1200px;
+	margin:auto;
+	border:2px solid #333652;
+	background:url("gray.jpg") no-repeat center fixed ;
+	background-size: 100% 100%;
+}
+li {
+	list-style:none;
+	margin:0px;
+}
+a {
+	text-decoration:none;
+}
+*:focus {
+	outline:1px solid #333652;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+	background:#333652;
+}
+
+::selection {
+    color: white;
+	background:#333652;
+}
+/* Login Form Design starts here. */
+.login-form li {
+	list-style:none;
+	margin:20px 0px;
+	margin-left:40px;
+	
+}
+.login-box {
+	width:500px;
+	margin:auto;
+	margin-top:10%;
+	border:2px solid #333652;
+	
+	
+}
+.login-box h1 {
+	text-align:center;
+	margin:0px;
+	background-color:#333652;
+	color:white;
+	font-weight:normal;
+}
+label {
+	margin:5px 0px;
+	font-size:14px;
+}
+.label-block {
+	display:inline-block;
+	width:100px;
+}
+.input-box {
+	display:inline-block;
+	margin:5px 0px;
+}
+.input-box input {
+	width:200px;
+	padding:5px 5px;
+	margin:auto;
+}
+.input-box textarea {
+	width:200px;
+	height:75px;
+	padding:5px 5px;
+}
+.input-box select {
+	padding:5px 2px;
+	width:200px;
+	margin:auto;
+}
+.submit_button {
+	font-size:16px;
+	margin-top:20px;
+	margin-right:20px;
+	padding:6px 10px;
+	background-color:#333652;
+	border:none;
+	color:white;
+}
+.submit_button:hover,.submit_button:focus {
+	cursor:pointer;
+	color:black;
+	background:#32ab9f;
+}
+.error_message {
+	margin-left:5px;
+	color:red;
+}
+.confirm_message {
+	margin-left:5px;
+	color:green;
+}
+/* Login Form Design ends here. */
